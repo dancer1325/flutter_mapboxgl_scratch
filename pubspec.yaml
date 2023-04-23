@@ -8,12 +8,15 @@ environment:
 
 dependencies:
   bloc: ^8.1.1
+  cupertino_icons: ^1.0.5
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.2
   flutter_localizations:
     sdk: flutter
+  http: ^0.13.5
   intl: ^0.17.0
+  mapbox_gl: ^0.16.0
 
 dev_dependencies:
   bloc_test: ^9.1.1
@@ -25,3 +28,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+  assets:
+    - assets/
+

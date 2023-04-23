@@ -162,3 +162,36 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 [very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
 [very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
 [very_good_cli_link]: https://github.com/VeryGoodOpenSource/very_good_cli
+
+## How to compile?
+* `flutter pub get`
+    * Get the dependencies listed in the 'pubspec.yaml'
+
+## How to run?
+* Configure [Mapbox](https://www.mapbox.com/)
+  * Create an account
+  * Use the default token or create a new one
+* Configure your device
+    * Simulator
+        * Built-in IDE
+            * JetBrains
+                * Tools, Device Manager, Configure it, Run it
+            * VSC
+                * Command palette, Flutter Select Device
+        * Installed one's
+            * Simulator [MacOs]
+                * `open -a Simulator`
+    * Real physical
+        * [MacOs] https://docs.flutter.dev/get-started/install/macos#deploy-to-ios-devices
+* Run your flutter project
+    * Via IDE
+        * JetBrains
+            * Select the Flutter Device and 'main.dart'
+            * Click in run button
+    * Via terminal
+        * `flutter run lib/main.dart`
+            * 'lib/main.dart' depends on the relative path between your current terminal and the 'main.dart' file
+
+## Notes:
+* Mapbox
+  * Precise location data 
