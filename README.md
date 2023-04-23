@@ -173,7 +173,8 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
   * Use the default token or create a new one
   * Depending on the platform
     * [Android] Follow this [guide](https://docs.mapbox.com/android/maps/guides/install/)
-    * [iOS] Folow this [guide](https://docs.mapbox.com/ios/maps/guides/install/) 
+    * [iOS] Folow this [guide](https://docs.mapbox.com/ios/maps/guides/install/) \
+  * Configure your custom map's styles under 'Your profile, studio' section
 * Configure your device
     * Simulator
         * Built-in IDE

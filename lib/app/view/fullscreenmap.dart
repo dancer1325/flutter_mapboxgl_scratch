@@ -16,6 +16,7 @@ class _FullScreenMapState extends State<FullScreenMap> {
   final center = LatLng(37.810575, -122.477174);
   String selectedStyle = 'mapbox://styles/klerith/ckcur145v3zxe1io3f7oj00w7';
 
+  // Add the url of your custom one created
   final oscuroStyle = 'mapbox://styles/klerith/ckcuqzbf741ba1imjtq6jmm3o';
   final streetStyle = 'mapbox://styles/klerith/ckcur145v3zxe1io3f7oj00w7';
 
