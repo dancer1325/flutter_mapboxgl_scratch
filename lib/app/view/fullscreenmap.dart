@@ -122,6 +122,7 @@ class _FullScreenMapState extends State<FullScreenMap> {
           target: center,
           zoom: 14
       ),
+      accessToken: const String.fromEnvironment("ACCESS_TOKEN"),
     );
   }
 }

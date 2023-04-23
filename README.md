@@ -171,6 +171,9 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
 * Configure [Mapbox](https://www.mapbox.com/)
   * Create an account
   * Use the default token or create a new one
+  * Depending on the platform
+    * [Android] Follow this [guide](https://docs.mapbox.com/android/maps/guides/install/)
+    * [iOS] Folow this [guide](https://docs.mapbox.com/ios/maps/guides/install/) 
 * Configure your device
     * Simulator
         * Built-in IDE
@@ -187,9 +190,10 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
     * Via IDE
         * JetBrains
             * Select the Flutter Device and 'main.dart'
+            * Click in edit configurarion and in 'Additional run args' type --dart-define ACCESS_TOKEN=fbac0fe21bc74065899defe88d5278de
             * Click in run button
     * Via terminal
-        * `flutter run lib/main.dart`
+        * `flutter run lib/main.dart --dart-define ACCESS_TOKEN=YourMapboxToken`
             * 'lib/main.dart' depends on the relative path between your current terminal and the 'main.dart' file
 
 ## Notes:
